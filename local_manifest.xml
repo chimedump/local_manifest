@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="pe" fetch="https://github.com/PixelExperience-Devices"/>
+  <remote name="lab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
+  
+  <!-- Device Trees -->
+     <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus.git" remote="lab" revision="thirteen" clone-depth="1"/>
+     <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime.git" remote="lab" revision="thirteen" clone-depth="1"/>
+     <project path="vendor/xiaomi/chime-perf" name="vendor_xiaomi_chime-perf.git" remote="lab" revision="thirteen" clone-depth="1"/>
+     <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime.git" remote="pe" revision="thirteen" clone-depth="1"/>
+     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1"/>
+</manifest>
