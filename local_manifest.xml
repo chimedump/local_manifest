@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="hub" fetch="https://github.com"/>
   <remote name="chime" fetch="https://github.com/chimedump"/>
   <remote name="pe" fetch="https://github.com/PixelExperience-Devices"/>
   <remote name="lab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
@@ -13,6 +14,6 @@
      <project path="vendor/xiaomi/chime-perf" name="vendor_xiaomi_chime-perf.git" remote="lab" revision="thirteen" clone-depth="1"/>
      <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime.git" remote="pe" revision="thirteen" clone-depth="1"/>
      <remove-project name="android_hardware_xiaomi"/>
-     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" clone-depth="1"/>
+     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="hub" revision="thirteen" clone-depth="1"/>
      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="clang" revision="master" clone-depth="1"/>
 </manifest>
